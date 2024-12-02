@@ -160,3 +160,29 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Variáveis de ambiente
+.env
+
+# Modelos de locais de LLM
+
+
+# Modelos e arquivos de cache do Transformers
+*.bin
+*.pt
+*.pth
+*.gguf
+*.ckpt
+*.safetensors
+*.model
+*.pickle
+*.h5
+
+# Caches específicos do Transformers/Hugging Face
+.cache/
+*/.cache/
+.transformers_cache/
+*/.transformers_cache/
+
+# Dados sensíveis
+config.json
